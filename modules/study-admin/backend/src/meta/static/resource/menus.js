@@ -1,10 +1,24 @@
 const moduleInfo = module.info;
 const resources = [
   {
+    atomName: 'StudyCategoryManagement',
+    atomStaticKey: 'studyCategoryManagement',
+    atomRevision: 1,
+    atomCategoryId: 'a-base:menu.StudyResources',
+    resourceType: 'a-base:menu',
+    resourceConfig: JSON.stringify({
+      actionPath: '/a/baseadmin/category/tree?module=study-admin&atomClassName=video',
+    }),
+    resourceIcon: '::folder-open',
+    appKey: 'study-admin:appAdmin',
+    resourceRoles: 'template.system',
+    resourceSorting: 1,
+  },
+  {
     atomName: 'Videos',
     atomStaticKey: 'listVideo',
-    atomRevision: 1,
-    atomCategoryId: 'a-base:menu.List',
+    atomRevision: 2,
+    atomCategoryId: 'a-base:menu.StudyResources',
     resourceType: 'a-base:menu',
     resourceConfig: JSON.stringify({
       module: moduleInfo.relativeName,
@@ -14,6 +28,7 @@ const resources = [
     resourceIcon: ':outline:data-list-outline',
     appKey: 'study-admin:appAdmin',
     resourceRoles: 'template.system',
+    resourceSorting: 2,
   },
 ];
 module.exports = resources;
