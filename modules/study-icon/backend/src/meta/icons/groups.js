@@ -1,2 +1,3 @@
-const groups = {};
-module.exports = groups;
+module.exports = {
+  default: 'study',
+};

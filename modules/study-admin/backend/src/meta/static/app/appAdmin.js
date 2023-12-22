@@ -17,12 +17,12 @@ const content = {
   },
 };
 const app = {
-  atomName: 'Admin',
+  atomName: 'StudyAdmin',
   atomStaticKey: 'appAdmin',
   atomRevision: 0,
   atomCategoryId: 'AppCategoryManagement',
   description: '',
-  appIcon: '::radio-button-unchecked',
+  appIcon: 'study-icon::study',
   appIsolate: false,
   content: JSON.stringify(content),
   resourceRoles: 'authenticated',
