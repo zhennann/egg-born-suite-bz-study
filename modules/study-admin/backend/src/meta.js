@@ -29,7 +29,7 @@ const meta = {
     schemas,
   },
   index: {
-    indexes: {},
+    indexes: { studyVideo: 'createdAt,updatedAt,atomId' },
   },
 };
 module.exports = meta;
