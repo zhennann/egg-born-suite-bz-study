@@ -1,0 +1,25 @@
+{
+  "extends": "../../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "references": [
+    {
+      "path": "modules/study-admin"
+    },
+    {
+      "path": "modules/study-base"
+    },
+    {
+      "path": "modules/study-h5"
+    },
+    {
+      "path": "modules/study-icon"
+    },
+    {
+      "path": "modules/study-pc"
+    }
+  ]
+}

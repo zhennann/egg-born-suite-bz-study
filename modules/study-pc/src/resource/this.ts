@@ -1,0 +1,2 @@
+export const __ThisModule__ = 'study-pc';
+export type __ThisModuleType__ = typeof __ThisModule__;

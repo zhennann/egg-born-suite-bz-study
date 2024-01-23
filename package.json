@@ -1,7 +1,14 @@
 {
-  "name": "egg-born-suite-bz-study",
+  "name": "cabloy-suite-api-bz-study",
   "version": "5.0.0",
   "title": "bz-study",
   "description": "study",
-  "author": "zhennann"
+  "author": "zhennann",
+  "dependencies": {
+    "cabloy-module-api-study-admin": "workspace:^",
+    "cabloy-module-api-study-base": "workspace:^",
+    "cabloy-module-api-study-h5": "workspace:^",
+    "cabloy-module-api-study-icon": "workspace:^",
+    "cabloy-module-api-study-pc": "workspace:^"
+  }
 }
