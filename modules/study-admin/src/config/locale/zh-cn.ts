@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   StudyAdmin: '培训管理端',
   Videos: '视频',
   StudyResources: '资源管理',
