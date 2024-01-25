@@ -4,7 +4,7 @@ import { BeanModelBase, Model } from '@cabloy/core';
   table: 'studyVideo',
   options: {
     disableDeleted: false,
-    cacheName: { module: moduleInfo.relativeName, name: 'modelVideo' },
+    cacheName: { name: 'modelVideo' },
   },
 })
 export class ModelVideo extends BeanModelBase {}
