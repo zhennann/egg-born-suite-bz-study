@@ -1,8 +1,11 @@
+import { BeanBase } from '@cabloy/core';
+
 const __atomClassVideo = {
   module: moduleInfo.relativeName,
   atomClassName: 'video',
 };
-module.exports = class VersionInit {
+
+export class VersionInit extends BeanBase {
   async run(options) {
     // rights
     await this._rights();
@@ -50,4 +53,4 @@ module.exports = class VersionInit {
       categoryIds[item.categoryName] = categoryId;
     }
   }
-};
+}
