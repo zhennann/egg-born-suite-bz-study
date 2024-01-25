@@ -1,4 +1,3 @@
-const moduleInfo = module.info;
 const __atomClassVideo = {
   module: moduleInfo.relativeName,
   atomClassName: 'video',
