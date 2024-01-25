@@ -1,2 +1,1 @@
-const services = {};
-module.exports = services;
+export interface IModuleLocal {}
