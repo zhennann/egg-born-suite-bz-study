@@ -1,11 +1,10 @@
-module.exports = class Video extends module.meta.class.ModelCache {
-  constructor() {
-    super({
-      table: 'studyVideo',
-      options: {
-        disableDeleted: false,
-        cacheName: { module: moduleInfo.relativeName, name: 'modelVideo' },
-      },
-    });
-  }
-};
+import { BeanModelBase, Model } from '@cabloy/core';
+
+@Model({
+  table: 'studyVideo',
+  options: {
+    disableDeleted: false,
+    cacheName: { module: moduleInfo.relativeName, name: 'modelVideo' },
+  },
+})
+export class ModelVideo extends BeanModelBase {}

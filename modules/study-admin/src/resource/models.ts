@@ -1,3 +1,7 @@
-const video = require('./model/video.js');
-const models = { video };
-module.exports = models;
+export * from '../model/video.js';
+
+import { ModelVideo } from '../model/video.js';
+
+export interface IModuleModel {
+  video: ModelVideo;
+}
