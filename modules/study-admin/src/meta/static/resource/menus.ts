@@ -20,7 +20,7 @@ const resources = [
     atomCategoryId: 'a-base:menu.StudyResources',
     resourceType: 'a-base:menu',
     resourceConfig: JSON.stringify({
-      module: moduleInfo.relativeName,
+      module: __ThisModule__,
       atomClassName: 'video',
       atomAction: 'read',
     }),

@@ -4,7 +4,7 @@ import { BeanAtomBase } from 'cabloy-module-api-a-base';
 @Atom()
 export class AtomVideo extends BeanAtomBase {
   get model() {
-    return this.ctx.model.module(moduleInfo.relativeName).video;
+    return this.ctx.model.module(__ThisModule__).video;
   }
 
   async default({ atomClass, item, options, user }) {

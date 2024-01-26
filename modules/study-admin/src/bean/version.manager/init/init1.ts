@@ -1,7 +1,7 @@
 import { BeanBase } from '@cabloy/core';
 
 const __atomClassVideo = {
-  module: moduleInfo.relativeName,
+  module: __ThisModule__,
   atomClassName: 'video',
 };
 
