@@ -8,7 +8,7 @@ const controllers = require('./controllers.js');
 const services = require('./services.js');
 const models = require('./models.js');
 const meta = require('./meta.js');
-module.exports = {
+export default {
   aops,
   beans,
   routes,

@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   info: {
     bean: 'video',
     title: 'Video',

@@ -27,4 +27,4 @@ schemas.videoSearch = {
     },
   },
 };
-module.exports = schemas;
+export default schemas;

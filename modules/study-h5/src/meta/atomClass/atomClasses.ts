@@ -1,2 +1,2 @@
 const atomClasses = {};
-module.exports = atomClasses;
+export default atomClasses;

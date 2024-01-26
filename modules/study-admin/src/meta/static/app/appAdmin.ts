@@ -27,4 +27,4 @@ const app = {
   resourceRoles: 'authenticated',
   appSorting: 0,
 };
-module.exports = app;
+export default app;

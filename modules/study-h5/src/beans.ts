@@ -6,4 +6,4 @@ const beans = {
     bean: versionManager,
   },
 };
-module.exports = beans;
+export default beans;

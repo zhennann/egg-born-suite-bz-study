@@ -32,4 +32,4 @@ const meta = {
     indexes: { studyVideo: 'createdAt,updatedAt,atomId' },
   },
 };
-module.exports = meta;
+export default meta;

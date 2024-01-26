@@ -1,4 +1,4 @@
 const layouts = [
   // layoutAtomListVideo,
 ];
-module.exports = layouts;
+export default layouts;
