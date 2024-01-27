@@ -1,2 +1,2 @@
-const atomClasses = {};
+const atomClasses: any = {};
 export default atomClasses;

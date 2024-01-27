@@ -40,7 +40,7 @@ export class VersionInit extends BeanBase {
       { categoryName: '销售技巧', categoryIdParent: 0, categorySorting: 2 },
       { categoryName: '职场提升', categoryIdParent: 0, categorySorting: 3 },
     ];
-    const categoryIds = {};
+    const categoryIds: any = {};
     for (const item of categories) {
       // add
       const categoryId = await this.ctx.bean.category.add({
