@@ -7,7 +7,7 @@ const __atomClassVideo = {
 };
 
 export class VersionInit extends BeanBase {
-  async run(options) {
+  async run(_options) {
     // rights
     await this._rights();
     // categories
