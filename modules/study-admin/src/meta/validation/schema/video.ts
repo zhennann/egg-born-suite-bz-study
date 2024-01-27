@@ -1,4 +1,4 @@
-const schemas = {};
+const schemas: any = {};
 // video
 schemas.video = {
   type: 'object',
