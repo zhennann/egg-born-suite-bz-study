@@ -5,7 +5,7 @@ import staticApps from './meta/static/apps.js';
 import staticDicts from './meta/static/dicts.js';
 import staticLayouts from './meta/static/layouts.js';
 import staticResources from './meta/static/resources.js';
-const meta = {
+export const meta = {
   base: {
     atoms: atomClasses,
     statics: {
@@ -32,4 +32,3 @@ const meta = {
     indexes: {},
   },
 };
-export default meta;
