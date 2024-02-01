@@ -7,19 +7,19 @@
   "include": ["src/**/*"],
   "references": [
     {
-      "path": "modules/study-admin"
+      "path": "modules/study-admin/tsconfig.build.json"
     },
     {
-      "path": "modules/study-base"
+      "path": "modules/study-base/tsconfig.build.json"
     },
     {
-      "path": "modules/study-h5"
+      "path": "modules/study-h5/tsconfig.build.json"
     },
     {
-      "path": "modules/study-icon"
+      "path": "modules/study-icon/tsconfig.build.json"
     },
     {
-      "path": "modules/study-pc"
+      "path": "modules/study-pc/tsconfig.build.json"
     }
   ]
 }
