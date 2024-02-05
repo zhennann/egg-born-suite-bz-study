@@ -20,4 +20,8 @@ declare module '@cabloy/core' {
   export interface IBeanScopeRecord {
     'study-h5': ScopeModuleStudyH5;
   }
+
+  export interface IBeanScopeConfig {
+    'study-h5': ReturnType<typeof config>;
+  }
 }

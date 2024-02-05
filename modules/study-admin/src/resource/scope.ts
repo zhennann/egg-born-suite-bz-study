@@ -20,4 +20,8 @@ declare module '@cabloy/core' {
   export interface IBeanScopeRecord {
     'study-admin': ScopeModuleStudyAdmin;
   }
+
+  export interface IBeanScopeConfig {
+    'study-admin': ReturnType<typeof config>;
+  }
 }
