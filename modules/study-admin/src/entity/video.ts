@@ -1,4 +1,5 @@
-import { EntityBase } from '@cabloy/core';
+import { EntityItemBase } from '@cabloy/core';
 
-export interface EntityVideo extends EntityBase {
+export interface EntityVideo extends EntityItemBase {
+  description: string;
 }
