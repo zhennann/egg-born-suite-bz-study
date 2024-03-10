@@ -1,4 +1,6 @@
-import { BeanModelBase, Model } from '@cabloy/core';
+import { Model } from '@cabloy/core';
+import { BeanModelBase } from 'cabloy-module-api-a-database';
+import { EntityVideo } from '../entity/video.js';
 
 @Model({
   table: 'studyVideo',
@@ -6,4 +8,4 @@ import { BeanModelBase, Model } from '@cabloy/core';
     disableDeleted: false,
   },
 })
-export class ModelVideo extends BeanModelBase {}
+export class ModelVideo extends BeanModelBase<EntityVideo> {}
