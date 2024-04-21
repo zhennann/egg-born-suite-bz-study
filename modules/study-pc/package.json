@@ -1,7 +1,7 @@
 {
   "name": "cabloy-module-api-study-pc",
   "version": "5.0.0",
-  "eggBornModule": {
+  "cabloyModule": {
     "fileVersion": 0,
     "dependencies": {
       "a-instance": "5.0.0",
